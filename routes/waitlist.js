@@ -50,7 +50,7 @@ router.post('/waitlist', async (req, res) => {
     }
 
     // 5. Build the referral link to send back to the new user
-    const referralLink = `https://yourdomain.com/?ref=${referralCode}`;
+    const referralLink = `https://harmonious-truffle-07017a.netlify.app/?ref=${referralCode}`;
     // 🔁 Replace yourdomain.com with your actual domain when you go live
 
     // 6. Send success response
